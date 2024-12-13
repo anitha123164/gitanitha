@@ -1,0 +1,27 @@
+git init                                          ----- new repository
+git config --global user.name "anitha"
+git config --global user.email "saireddyanitha164@gmail.com"
+git clone url                                     ---- to clone git hub account
+git add .                                         ------- to add the file
+git status                                        ---- to check the status
+git commit -m "label"                             --- to commit the file
+git  branch                                       ------ to list the branch
+git branch branchname                             --- to create new branch
+git checkout branch name                          ----- to go to another branch
+git branch -d branch name                         ---- to delete the branch 
+git branch -m oldnmae newname                     ---- to rename the branch
+git push origin --delete branch name              --- it will delete remote branch
+git merge branch name                             ------- to transfer files from one branch to another branch
+git merge sourcemerge targetmerge
+git log                                           --- to see comit ids
+git log --oneline                                 ------ it will commit ids in oneline
+git log --summary                                 -------it will show detailed commit ids 
+git stash                                         --- to store file temporarily
+git stash pop                                     --------- the file will come to prsent branch and it will delete in stash
+git stash apply                                   ------- the file will come back and also it will be there in stash
+git stash clear                                   ---- the file wont be there
+git cherry-pick commitid                          ----to transfer particular file to another branch
+git reset --hard commitid(n-1)                    ---- to delete entire files
+git reset --mixed commitid(n-1)                   ----- local repository to working directory
+git reset --head commitid(n-1)                    ----- staging to working 
+git reset --soft commitid(n-1)                    ----- commitid to green
